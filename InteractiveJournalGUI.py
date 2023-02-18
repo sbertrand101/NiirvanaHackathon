@@ -3,11 +3,18 @@ import tkinter as tk
 class JournalApp:
     def __init__(self, master):
         self.prompts = [
-            "What were the high points and low points of my week, and what caused them?",
+            "What is your name?",
+            "Age",
+            "Race",
+            "Occupation",
+            "Location (City)",
+            "What is your current mood?",
             "What were the things that brought me joy and happiness this week?",
             "What challenges did I face this week, and how did I overcome them?",
+            "How did I take care of my physical, emotional, and mental health this week?",
             "What did I learn about myself this week?",
-            "What goals did I accomplish this week, and what goals did I fall short of?"
+            "What goals did I accomplish this week, and what goals did I fall short of?",
+            "What am I most grateful for this week?"
         ]
         self.entries = []
         self.prompt_idx = 0
